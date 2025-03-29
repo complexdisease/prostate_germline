@@ -21,7 +21,3 @@ genome_scanning.py --nfeatures [number of features types from input] --batchsize
 05 Scoring variants
 
 scoring.py --nfeatures [number of features types from input] --dir [directory storing scanning results of 04] --bed [variants for genome scanning in bed/tsv format] --outdir [path of final scores]
-
-06 Fine-mapping GWAS variants with BEAR model
-
-BEAR.py --nepochs [number of maximum iteration] --data_file [input data in tab delimited format, with modeling feature in the first column, and all priors saved in the rest of the columns] --output [path to the output BEAR results]
